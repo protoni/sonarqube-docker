@@ -15,3 +15,8 @@ docker run -it test-sonarqube /bin/bash
 ```
 docker run -d --name test-sonarqube-container -p 9000:9000 test-sonarqube
 ```
+
+#### Access UI
+```
+http://localhost:9000
+```
